@@ -22,7 +22,7 @@ All text above, and the splash screen must be included in any redistribution
 #include <SSD1306.h>
 
 // Initialize the OLED display using Wire library
-SSD1306 display(0x3c, 5, 4); //GPIO 4 = D2 (SDA), GPIO 5 = D1(SCL)
+SSD1306 display(0x3c, 5, 4); //GPIO 5 = D1(SCL), GPIO 4 = D2 (SDA)
 
 #define NUMFLAKES 10
 #define XPOS 0
